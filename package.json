@@ -1,0 +1,17 @@
+{
+  "name": "winston_ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html --public-url / --dist-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "bootstrap": "^5.3.3",
+    "parcel": "^2.12.0"
+  }
+}
