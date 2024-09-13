@@ -1,19 +1,21 @@
 {
-  "name": "winston_ai",
+  "name": "kmejka.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "parcel build",
-    "start": "parcel serve src/index.html --public-url / --dist-dir dist"
+    "build": "parcel build index.html",
+    "start": "parcel serve index.html --public-url / --dist-dir dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "bootstrap": "^5.3.3",
-    "parcel": "^2.12.0"
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0",
+    "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
     "@parcel/watcher": "^2.4.1"
